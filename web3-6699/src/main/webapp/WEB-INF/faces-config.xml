@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="3.0" xmlns="https://jakarta.ee/xml/ns/jakartaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                                  https://jakarta.ee/xml/ns/jakartaee/web-facesconfig_3_0.xsd">
+    <managed-bean>
+        <managed-bean-name>checkAreaBean</managed-bean-name>
+        <managed-bean-class>io.github.lab3.model.CheckAreaBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>checkAreaResultsBean</managed-bean-name>
+        <managed-bean-class>io.github.lab3.model.CheckAreaResultsBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>selectGraphBean</managed-bean-name>
+        <managed-bean-class>io.github.lab3.model.SelectGraphBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>selectRBean</managed-bean-name>
+        <managed-bean-class>io.github.lab3.model.SelectRBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>selectXBean</managed-bean-name>
+        <managed-bean-class>io.github.lab3.model.SelectXBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>selectYBean</managed-bean-name>
+        <managed-bean-class>io.github.lab3.model.SelectYBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>timeBean</managed-bean-name>
+        <managed-bean-class>io.github.lab3.model.TimeBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+</faces-config>
